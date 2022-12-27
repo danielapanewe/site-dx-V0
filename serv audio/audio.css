@@ -1,0 +1,353 @@
+
+
+/******************** GENERALITE  *********************/
+
+.section__audio{
+    color: #0C1E33;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.bouton > .btn{
+    font-size: 1.5rem;
+    color: var(--colorBlack);
+}
+/******************** SECTION  *********************/
+
+.audio__header, .audio__bloc_title{
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+.audio__header > h4{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 1.5rem;
+}
+.audio__header > h2{
+    color: var(--colorBlue);
+    font-size: 2.75rem;
+    font-weight: bold;
+}
+.audio__header > span, .audio__bloc_title > span{
+    font-size: 1.2rem;
+}
+.audio__bloc_1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.audio__img_1{
+    width: 63%;
+}
+.audio__img_2{
+    width: 36%;
+}
+.audio__bloc_title > h2{
+    font-size: 2.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.audio__bloc_desc{
+    font-size: 1rem;
+    margin: 0 8.75rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.3rem;
+}
+.audio__desc > p{
+    padding-bottom: 1rem;
+}
+.audio__img_3{
+    position: absolute;
+    max-width: 50%;
+}
+.audio__desc_1{
+    padding-top: 2rem;
+    margin: 0 8.75rem; 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.audio__content_desc{
+    display: flex;
+    flex-direction: column;
+}
+.audio__content_desc > .bouton{
+    align-self: end;
+}
+.audio__content_desc > h4{
+    font-size: 2.125rem;
+    font-weight: 600;
+    padding-bottom: 3rem;
+}
+.audio__content_desc > p{
+    padding-bottom: 2rem;
+}
+.audio__img_4{
+    margin-top: 2rem;
+    position: relative;
+    text-align: center;
+}
+.audio__text_center{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-size: 1.75rem;
+    display: flex;
+    flex-direction: column;
+}
+.audio__text_center > h4{
+    font-family: 'Kaushan Script', cursive;
+    transition: all 0.3s ease;
+    font-size: 3.5rem;
+}
+.audio__text_center > h2{
+    color: var(--colorBlue);
+    font-size: 5.5rem;
+    padding-left: 27rem;
+    transition: all 0.4s ease;
+    font-weight: bold;
+}
+.audio__text_center > span{
+    font-size: 2.5rem;
+    letter-spacing: 2rem;
+    padding-left: 13rem;
+    transition: all 0.3s ease;
+    padding-bottom: 1.2rem;
+}
+.audio__text_center > .bouton{
+    padding-left: 13rem;
+}
+.audio__bloc_3{
+    margin: 0 8.75rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+.audio__img_5{
+    width: 70%;
+}
+.audio__bloc_text > h2{
+    color: var(--colorBlue);
+    font-size: 2.75rem;
+}
+.audio__bloc_text > h4{
+    color: var(--colorBlue);
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    letter-spacing: 1.1rem;
+    padding-bottom: 2rem;
+}
+.audio__bloc_text > p{
+    padding-bottom: 3rem;
+}
+.audio__img_4 > a > img{
+    width: 100%;
+    height: auto;
+}
+
+/******************** ANIMATION  *********************/
+
+.audio__img_4:hover > .audio__text_center > h4{
+    transform: translateX(2.5rem);
+    transition: all 0.4s ease;
+}
+.audio__img_4:hover > .audio__text_center > h2{
+    transform: translateX(-3rem);
+    transition: all 0.3s ease;
+}
+.audio__img_4:hover > .audio__text_center > span{
+    transform: translateX(2.5rem);
+    transition: all 0.4s ease;
+}
+
+/******************** MEDIA  *********************/
+
+/******************** 2000PX  *********************/
+@media (max-width: 125em) {
+    .audio__bloc_desc, .audio__desc_1{
+        margin: 0 12rem;
+    }
+    .audio__img_3{
+        max-width: 35%;
+    }
+}
+/******************** 1840PX  *********************/
+@media (max-width: 115em) {
+    .audio__bloc_desc, .audio__desc_1{
+        margin: 0 12rem;
+    }
+    .audio__img_3{
+        max-width: 40%;
+    }
+}
+
+/******************** 1350PX  *********************/
+@media (max-width: 84.375em) {
+    .audio__bloc_desc, .audio__desc_1{
+        margin: 0 6rem;
+    }
+    .audio__img_3{
+        width: 55%;
+    }
+}
+
+/******************** 1440PX  *********************/
+@media (max-width: 90em) {
+    .audio__bloc_desc, .audio__desc_1{
+        margin: 0 4rem;
+    }
+    .audio__img_3{
+        max-width: 55%;
+    }
+    .audio__content_desc{
+        padding-left: -5rem;
+    }
+    .audio__img_4 > a > img{
+        height: 85vh;
+    }
+}
+/******************** 1200PX  *********************/
+@media (max-width: 75em) {
+    .bouton > .btn{font-size: 1rem;padding: 0.5rem;}
+    .audio__header > h4, .audio__desc > p, .audio__content_desc > p, .audio__bloc_text > p{
+        font-size: 1.2rem;
+    }
+    .audio__header > h2, .audio__bloc_title > h2,  .audio__content_desc > h4{
+        font-size: 2rem;
+    }
+    .audio__bloc_desc{
+        margin: 0 1.5rem;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 0;
+    }
+    .audio__desc_1{
+        margin: 0 1.5rem;
+        gap: 0;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .audio__img_3, .audio__bloc_img{
+        display: none;
+    }
+    .audio__content_desc > h4{text-align: center;padding-bottom: 1.5rem;}
+    .audio__content_desc{
+        padding-left: 0;
+    }
+    .audio__bloc_text > .bouton{     
+        padding-left: 5rem;
+    }
+    .audio__text_center > .bouton{
+        padding-left: 8rem;
+    }
+    .audio__content_desc > .bouton, .audio__text_center > .bouton{
+        align-self: center;
+    }
+    .audio__text_center{
+        margin: 0 2rem;
+    }
+    .audio__text_center > h4{
+        font-size: 2rem;
+    }
+    .audio__text_center > h2{
+        font-size: 3rem;
+        padding-left: 12rem;
+    }
+    .audio__text_center > span{
+        font-size: 2rem;
+        padding-left: 5rem;
+        letter-spacing: 1.5rem;
+    }
+    .audio__bloc_3{
+        margin: 0 1.5rem;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 0;
+    }
+    .audio__bloc_text > h2{font-size: 3rem;}
+    .audio__bloc_text > h4{
+        font-size: 1rem;
+        letter-spacing: 1rem;
+        padding-bottom: 1rem;
+        text-align: center;
+    }
+    .audio__bloc_desc, .audio__text_center, .audio__desc_1, .audio__bloc_text{
+        text-align: center;
+    }
+    .audio__bloc_text > .bouton {
+        padding-left: 0;
+    }
+    .audio__img_4 > a > img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+/******************** 500PX  *********************/
+@media (max-width: 31.25em) {
+    .audio__header > h4, .audio__desc > p, .audio__content_desc > p, .audio__bloc_text > p {
+        font-size: 0.8rem;
+    }
+    .audio__header > h2, .audio__bloc_title > h2, .audio__content_desc > h4 {
+        font-size: 1rem;
+    }
+    .audio__header > span, .audio__bloc_title > span{
+        font-size: 0.6rem;
+    }
+    .audio__text_center > h4 {
+        font-size: 1.5rem;
+    }
+    .audio__text_center > h2, .audio__bloc_text > h2{
+        font-size: 2rem;
+    }
+    .audio__text_center > span {
+        font-size: 1.3rem;
+        letter-spacing: 1rem;
+    }
+    .audio__bloc_text > h4{
+        font-size: 0.6rem;
+    }
+    .audio__img_4 > a > img{
+        width: 100%;
+        height: auto;
+    }
+}
+/******************** 280PX  *********************/
+@media (max-width: 17.5em) {
+    .audio__bloc_desc, .audio__text_center, .audio__desc_1{
+        text-align: center;
+        margin: 0;
+    }
+    .audio__text_center > h4{
+        font-size: 1rem;
+    }
+    .audio__text_center > h2{
+        font-size: 2rem;
+        padding-left: 10rem;
+    }
+    .audio__text_center > span{
+        font-size: 1rem;
+        padding-left: 5rem;
+    }
+    .audio__bloc_3{
+        margin: 0;
+    }
+    .audio__bloc_img{
+        display: none;
+    }
+    .audio__bloc_text{
+        margin-top: 1rem;
+        text-align: center;
+    }
+    .audio__bloc_text > h2 {
+        font-size: 1.5rem;
+    }
+    .audio__bloc_text > .bouton {
+        padding-left: 0;
+    }
+    .audio__img_4 > a > img{
+        width: 100%;
+        height: auto;
+    }
+}

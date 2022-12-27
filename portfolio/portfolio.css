@@ -1,0 +1,197 @@
+.main__portfolio {
+    padding-bottom: 4rem;
+}
+.portfolio__background {
+    background: linear-gradient(rgba(0, 0, 0, 0.486), rgba(0, 0, 0, 0.486)),
+        url(../images/img_portfolio/background1200.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+.grid__colnomiddle {
+    display: grid;
+    grid-template-columns: 1fr 0.55fr;
+}
+.section__design {
+    background: url(../images/img_portfolio/design_background.png);
+}
+.section__galerie {
+    background: url(../images/img_portfolio/galery_background.png);
+}
+.section__evenement {
+    background: url(../images/img_portfolio/event_backgound.png);
+}
+.bg__img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+}
+.background__content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    grid-column: 2;
+    padding: 9rem 4.5rem 0 0;
+}
+.background__content h1 {
+    font-weight: 800;
+    text-transform: uppercase;
+    color: var(--colorWhite);
+    font-size: 2rem;
+}
+.background__content p {
+    font-weight: 300;
+    text-transform: uppercase;
+    color: var(--colorWhite);
+}
+.background__content a {
+    display: inline-block;
+    align-self: flex-start;
+    text-decoration: none;
+    color: var(--colorWhite);
+    margin-top: 1.5rem;
+}
+
+.portfolio__title {
+    font-family: 'Kaushan Script';
+    color: var(--colorParagraph);
+    font-weight: 300;
+    font-size: 6rem;
+}
+.portfolio__paragraph {
+    color: var(--colorParagraph);
+    font-weight: 300;
+}
+.portfolio__link {
+    display: inline-block;
+    align-self: flex-start;
+    text-decoration: none;
+    color: var(--colorParagraph);
+    margin-top: 1.5rem;
+}
+.design__content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    grid-column: 2;
+    padding: 0 4.5rem 2rem 2rem;
+}
+.galerie__content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    margin: 0 15rem;
+    padding-top: 14rem;
+    padding-bottom: 3rem;
+}
+.galerie__content a {
+    align-self: center;
+}
+.galerie__content a,
+.galerie__content p,
+.galerie__content h1 {
+    color: var(--colorWhite);
+}
+.evenement__content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    grid-column: 2;
+    padding: 0 4.5rem 2rem 2rem;
+    padding-bottom: 2rem;
+    padding-right: 4.5rem;
+}
+/*********queries***************************/
+/*1150px*/
+@media (max-width: 71.875em) {
+    .background__content {
+        display: flex;
+        flex-direction: column;
+        gap: 0.4rem;
+        grid-column: 1;
+        margin: 0 auto;
+        padding: 2rem 5rem;
+        align-self: center;
+    }
+    .background__content h1 {
+        font-size: 4rem;
+    }
+    .grid__colnomiddle {
+        grid-template-columns: 1fr;
+    }
+    .section__design {
+        background: url(../images/img_portfolio/design_background.png);
+        background-position: right;
+    }
+    .section__evenement {
+        background: url(../images/img_portfolio/event_backgound.png);
+        background-position: right;
+    }
+    .portfolio__paragraph {
+        color: var(--colorParagraph);
+        font-weight: 500;
+    }
+    .portfolio__link {
+        font-size: 1.5rem;
+        align-self: center;
+    }
+    .portfolio__title {
+        text-align: center;
+    }
+    .galerie__content {
+        margin: 0 3rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+}
+/*800px*/
+@media (max-width: 50em) {
+    .portfolio__title {
+        font-size: 2.8rem;
+    }
+    .background__content {
+        padding: 0 1rem;
+    }
+    .background__content h1 {
+        font-size: 3rem;
+    }
+    .portfolio__background {
+        background: linear-gradient(rgba(0, 0, 0, 0.486), rgba(0, 0, 0, 0.486)),
+            url(../images/img_portfolio/background800.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
+/*500px*/
+@media (max-width: 31.25em) {
+    .background__content h1 {
+        font-size: 2.1rem;
+    }
+    .portfolio__title {
+        font-size: 2.5rem;
+    }
+    .portfolio__link {
+        font-size: 1rem;
+        align-self: center;
+    }
+    .evenement__content,
+    .design__content {
+        padding: 0 1rem 2rem 1rem;
+    }
+    .galerie__content {
+        margin: 0 1rem;
+    }
+    .portfolio__background {
+        background: linear-gradient(rgba(0, 0, 0, 0.486), rgba(0, 0, 0, 0.486)),
+            url(../images/img_portfolio/background400.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}

@@ -1,0 +1,427 @@
+
+
+<link rel="stylesheet" href="../footer/footer.css">
+<link rel="stylesheet" href="./marketing.css">
+<link rel="stylesheet" href="../style.css">
+<link rel="stylesheet" href="../menu/menu.css">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,600&display=swap" rel="stylesheet">
+
+<header class="header">
+    <img src="../images/img_menu/logo.png" alt="logo de DIGITAL X" class="header__logo"/>
+    <div class="header__overlay"></div>
+    <nav class="header__navigation">
+        <div class="header__menuhead">
+            <div class="header__retourarriere">
+                <ion-icon name="chevron-back-outline"></ion-icon>
+            </div>
+            <div class="header__currentmenu"></div>
+            <div class="header__close">&times;</div>
+        </div>
+        <ul class="header__list">
+            <li>
+                <a href="../index.html" class="header__link">Home </a>
+            </li>
+            <li class="header__dropdown header__items">
+                <a href="#" class="header__link">
+                    <span class="link__title"> Services</span>
+                    <ion-icon name="chevron-down-outline" class="header__icon"></ion-icon>
+                </a>
+                <div class="header__megamenu submenu">
+                    <div class="megamenu__firstelt" id="megamenu__first"></div>
+                    <div class="megamenu__container">
+                        <div class="megamenu__content megamenu__secondelt" onmouseover="changeimg('url(../images/img_menu/marketing.png)')" onmouseout="closeimg() ">
+                            <h1>Marketing</h1>
+                            <ul class="header__megamenulist">
+                                <li>
+                                    <a href="#MARKETING DE CONTENU">
+                                        <ion-icon name="chevron-forward-outline" class="sublist__icon"></ion-icon>Marketing de contenu
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#MARKETING DE RESEAU SOCIAUX"><ion-icon name="chevron-forward-outline" class="sublist__icon"></ion-icon
+                                        >Marketing de réseaux sociaux
+                                        (CM)</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        href="#MARKETING D'EMAIL"
+                                        ><ion-icon
+                                            name="chevron-forward-outline"
+                                            class="sublist__icon"
+                                        ></ion-icon
+                                        >Marketing d'email</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        href="#MARKETING AUDIOVISUEL"
+                                        ><ion-icon
+                                            name="chevron-forward-outline"
+                                            class="sublist__icon"
+                                        ></ion-icon
+                                        >Marketing audiovisuel</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        href="#MARKETING D'INFLUENCE"
+                                        ><ion-icon
+                                            name="chevron-forward-outline"
+                                            class="sublist__icon"
+                                        ></ion-icon
+                                        >Marketing d'influence</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        href="#MARKETING D'AFFILIATION"
+                                        ><ion-icon
+                                            name="chevron-forward-outline"
+                                            class="sublist__icon"
+                                        ></ion-icon
+                                        >Marketing d'affiliation</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        href="#REFERENCEMENT"
+                                        ><ion-icon
+                                            name="chevron-forward-outline"
+                                            class="sublist__icon"
+                                        ></ion-icon
+                                        >Référencement</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                        <div
+                            class="megamenu__content"
+                            onmouseover="changeimg('url(../images/img_menu/audiovisuel.png)')"
+                            onmouseout="closeimg() ">
+                            <h1>Audiovisuel</h1>
+                            <ul class="header__megamenulist">
+                                <li>
+                                    <a href="../serv audio/audio.html">
+                                        <ion-icon
+                                            name="chevron-forward-outline"
+                                            class="sublist__icon"
+                                        ></ion-icon
+                                        >Photographie
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../serv audio/audio.html"
+                                        ><ion-icon
+                                            name="chevron-forward-outline"
+                                            class="sublist__icon"
+                                        ></ion-icon
+                                        >Couverture médiatique</a
+                                    >
+                                </li>
+                                <li>
+                                    <a href="../serv audio/audio.html"
+                                        ><ion-icon
+                                            name="chevron-forward-outline"
+                                            class="sublist__icon"
+                                        ></ion-icon
+                                        >Shooting</a
+                                    >
+                                </li>
+                                <li>
+                                    <a href="../serv audio/audio.html"
+                                        ><ion-icon
+                                            name="chevron-forward-outline"
+                                            class="sublist__icon"
+                                        ></ion-icon
+                                        >Production audiovisuelle</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                        <div
+                            class="megamenu__content megamenu__fourthelt"
+                            onmouseover="changeimg('url(../images/img_menu/dev.png)')"
+                            onmouseout="closeimg() "
+                        >
+                            <h1>Développement</h1>
+                            <ul class="header__megamenulist">
+                                <li>
+                                    <a
+                                        href="../serv developpement/dev.html"
+                                    >
+                                        <ion-icon
+                                            name="chevron-forward-outline"
+                                            class="sublist__icon"
+                                        ></ion-icon
+                                        >Développement web
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="../serv developpement/dev.html"
+                                        ><ion-icon
+                                            name="chevron-forward-outline"
+                                            class="sublist__icon"
+                                        ></ion-icon
+                                        >Développement mobile</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                        <div
+                            class="megamenu__content megamenu__fifthelt"
+                            onmouseover="changeimg('url(../images/img_menu/design.png)')"
+                            onmouseout="closeimg() "
+                        >
+                            <h1>Design Graphique</h1>
+                            <ul class="header__megamenulist">
+                                <li>
+                                    <a
+                                        href="../serv design/design.html"
+                                    >
+                                        <ion-icon
+                                            name="chevron-forward-outline"
+                                            class="sublist__icon"
+                                        ></ion-icon
+                                        >UI et UX Design
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="../serv design/design.html"
+                                        ><ion-icon
+                                            name="chevron-forward-outline"
+                                            class="sublist__icon"
+                                        ></ion-icon
+                                        >Web design</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="header__dropdown header__items">
+                <a href="../portfolio/portfolio.html" class="header__link">
+                    <span class="link__title"> Portfolio</span>
+                    <ion-icon
+                        name="chevron-down-outline"
+                        class="header__icon"
+                    ></ion-icon
+                ></a>
+
+                <ul class="header__droplist submenu">
+                    <li>
+                        <a href="../portfolio/portfolio.html">
+                            <ion-icon
+                                name="chevron-forward-outline"
+                                class="sublist__icon"
+                            ></ion-icon>
+                            Réalisations</a
+                        >
+                    </li>
+                    <li>
+                        <a href="../portfolio/portfolio.html"
+                            ><ion-icon
+                                name="chevron-forward-outline"
+                                class="sublist__icon"
+                            ></ion-icon
+                            >Template</a
+                        >
+                    </li>
+                    <li>
+                        <a href="../portfolio/portfolio.html"
+                            ><ion-icon
+                                name="chevron-forward-outline"
+                                class="sublist__icon"
+                            ></ion-icon
+                            >Evènements</a
+                        >
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#" class="header__link">Blog</a>
+            </li>
+            <li class="header__dropdown header__items">
+                <a href="#" class="header__link">
+                    <span class="link__title">Carrière</span>
+                    <ion-icon
+                        name="chevron-down-outline"
+                        class="header__icon"
+                    ></ion-icon>
+                </a>
+                <ul class="submenu header__droplist">
+                    <li>
+                        <a href="#">
+                            <ion-icon
+                                name="chevron-forward-outline"
+                                class="sublist__icon"
+                            ></ion-icon
+                            >Offres d'emplois</a
+                        >
+                    </li>
+                    <li>
+                        <a href="#"
+                            ><ion-icon
+                                name="chevron-forward-outline"
+                                class="sublist__icon"
+                            ></ion-icon
+                            >Candidature spontanée</a
+                        >
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#" class="header__link">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="header__menutrigger">
+        <span
+            ><ion-icon
+                name="menu-outline"
+                class="burger__icon"
+            ></ion-icon
+        ></span>
+    </div>
+</header>
+
+<section class="section__marketing">
+    
+    <div class="marketing__header">
+        <a href="#"><div class="market__header" id="MARKETING DE CONTENU"></div></a>
+        <div class="marketing__text_center"><h1>MARKETING DE CONTENU</h1></div>
+    </div>
+    <div class=" marketing__bloc">
+        <div class="marketing__desc"><p>Le marketing de contenu est une discipline incontournable pour toutes entreprises qui désirent développer son activité. Cette stratégie marketing repose sur la création de contenu à forte valeur ajoutée dans l’objectif d’attirer, engager et conserver une audience qualifiée. Mais comment mettre en place une telle stratégie ? DIGITAL X SARL vous aide dans l'élaboration de la votre <a href="#">cliquez ici</a></p></div>
+        <a href="#" class="btn">Lire Plus</a>
+    </div>
+
+    <div class="marketing__content">
+        <a href="#"><div class="market" id="MARKETING DE RESEAU SOCIAUX"></div></a>
+        <div class="marketing__text_center"><h1>MARKETING DE RESEAU SOCIAUX</h1></div>
+    </div>
+    <div class=" marketing__bloc">
+        <div class="marketing__desc"><p>Le Marketing des réseaux sociaux (ou Social Media Marketing) est une forme de Marketing sur Internet qui implique la création et le partage de contenu sur les réseaux sociaux. Le Marketing sur les réseaux sociaux inclut la publication des contenus (textuel, image, vidéo) qui favorisent l’engagement du public.   Pour la création et l’animation de vos différentes plateformes sociales, DIGITAL X SARL met son expertise à votre disposition. Pour en savoir plus <a href="#">cliquez ici</a></p></div>
+        <a href="#" class="btn">Lire Plus</a>
+    </div>
+
+    <div class="marketing__content">
+        <a href="#"><div class="market__email" id="MARKETING D'EMAIL"></div></a>
+        <div class="marketing__text_center"><h1>MARKETING D'EMAIL</h1></div>
+    </div>
+    <div class=" marketing__bloc">
+        <div class="marketing__desc"><p>Beaucoup de personnes possèdent une adresse e-mail, car elle est souvent demandée dans les sites pour avoir accès à certains privilèges. Le Marketing d’email a un grand avantage, c’est une stratégie parmi tant d’autre, elle est peu couteuse, permet de personnaliser les messages que vous souhaitez de façon automatique et programmé à vos prospects, elle permet de maintenir la relation avec le client, elle permet de faire parvenir vos nouveaux produits, des informations, ou promotions. En échange de leur email, vous pourriez ainsi envoyer des cadeaux à votre prospect. Et ainsi évaluer vos performances. Alors n’hésitez plus contactez-nous pour avoir d’avantages d’informations.</p></div>
+        <a href="#" class="btn">Lire Plus</a>
+    </div>
+
+    <div class="marketing__content">
+        <a href="#"><div class="market__visuel" id="MARKETING AUDIOVISUEL"></div></a>
+        <div class="marketing__text_center"><h1>MARKETING AUDIOVISUEL</h1></div>
+    </div>
+    <div class=" marketing__bloc">
+        <div class="marketing__desc"><p>Le marketing audiovisuel met en plus de l’aspect visuel et ou audio, les techniques de ventes et leur mise en œuvre. Cette stratégie est très riche, car elle permet de toucher la sensibilité de chaque cible. Que ce soit pour un podcast, ou un spot, il faut savoir maximiser son temps pour ne pas égarer le client et faire en sorte qu’il passe à côté du but même de votre message. Avec cette stratégie vous êtes sûre que vous serez compris, alors n’hésitez plus contactez-nous pour avoir d’avantages d’informations.</p></div>
+        <a href="#" class="btn">Lire Plus</a>
+    </div>
+
+    <div class="marketing__content">
+        <a href="#"><div class="market__influence" id="MARKETING D'INFLUENCE"></div></a>
+        <div class="marketing__text_center"><h1>MARKETING D'INFLUENCE</h1></div>
+    </div>
+    <div class=" marketing__bloc">
+        <div class="marketing__desc"><p>Le Marketing d’influence reste un domaine nettement confus aujourd'hui. Il consiste à déterminer à travers des analyses, des influenceurs ayant grandi une forte communauté qui leur démontre une confiance, qui seront prescrit pour la promotion d’un produit ou d’un service. Notre équipe comporte des influenceurs de réseaux sociaux qui ont une parfaite connaissance du monde d’influence. Cela dit, vous pouvez avoir les meilleurs designs, les meilleurs contenues mais vos produits restent noyés dans la masse. Vous devez donc faire appel à l’influence marketing pour vous distinguer de vos concurrents. Nous mettons à votre disposition des spécialistes qui vous proposeront des stratégies d’influence afin de tirer profit de ces partenariats. Prenez acte des maintenant, et contactez-nous pour plus de détails ou mieux, visitez notre page de Vente.</p></div>
+        <a href="#" class="btn">Lire Plus</a>
+    </div>
+
+    <div class="marketing__content">
+        <a href="#"><div class="market__affiliation" id="MARKETING D'AFFILIATION"></div></a>
+        <div class="marketing__text_center"><h1>MARKETING D'AFFILIATION</h1></div>
+    </div>
+    <div class=" marketing__bloc">
+        <div class="marketing__desc"><p>Une stratégie qui permet à deux marques de profiter d’une activité l’une de l’autre. Elle comporte quatre (4) acteurs majeurs qui sont ; l’affilié, l’annonceur, le consommateur et la plateforme d’affiliation. Alors, quel qu'en soit votre position, nous vous suivrons dans vos projets d’affiliation afin de tirer bon profit des activités d’affiliation.</p></div>
+        <a href="#" class="btn">Lire Plus</a>
+    </div>
+
+    <div class="marketing__content">
+        <a href="#"><div class="market__sem" id="REFERENCEMENT"></div></a>
+        <div class="marketing__text_center"><h1>Search Engine Marketing</h1></div>
+    </div>
+    <div class=" marketing__bloc">
+        <div class="marketing__desc"><p>Le SEM représente des techniques visées à attirer plus de trafic organique sur votre site internet. Nous mettons à votre disposition des spécialistes pour augmenter la qualité et la quantité de trafic pour un meilleur classement sur les moteurs de recherches. Ayez l’esprit tranquille en nous confiant votre site ou votre blog pour rédaction web, l’optimisation, du référencement à l’aide des mots clés pertinents, vos campagnes PPC, et même votre sortie de pénalité Google Penguin, Google Panda, pénalité manuelle, pénalité algorithmique, etc… De ce fait, nous mettons à votre disposition nos spécialistes pour gérer votre SEO, votre SEA, ou alors votre sortie de pénalité.</p></div>
+        <a href="#" class="btn">Lire Plus</a>
+    </div>
+
+</section>
+
+<footer>
+    <div class="footer__bloc_1">
+        <div class="contain">
+        <div class="footer__bloc border">
+                <div class="footer__block">
+                    <img class="Phone" src="../images/img_footer/Phone.png" alt="Phone"><span>APPELEZ-NOUS</span>
+                </div>
+            <p>Tél:+237 699 999 999</p>
+        </div>
+        <div class="footer__bloc border">
+                <div class="footer__block">
+                    <img class="mail" src="../images/img_footer/mail_la.png" alt="mail_la"><span>E-MAIL</span>
+                </div>
+            <p><a href="mailto:info@digital-x-sarl.com">info@digital-x-sarl.com</a>
+            </p>
+        </div>
+        <div class="footer__bloc">
+                <div class="footer__block">
+                    <img class="heure" src="../images/img_footer/Heure.png" alt="Heure"><span>HORAIRES D'OUVERTURE</span>
+                </div>
+            <p>Lun - Ven (8 h - 17 h)</p>
+        </div>
+        </div>
+    </div>
+    
+    <div class="footer__bloc_2 ">
+        <div class="footer__grid_3 contain">
+            <div class="footer__big_1 col2">
+                <h4>NOUS SUIVRE</h4>
+                    <div class="footer__icon">
+                        <a href="/https://www.facebook.com/digitalxsarl"><ion-icon class="ion" name="logo-facebook"></ion-icon></a>   
+                        <a href="/Digital X SARL (@digitalxsarl) / Twitter"><ion-icon class="ion" name="logo-twitter"></ion-icon></a> 
+                        <a href="/Digital X SARL (@digitalxsarl) • Photos et vidéos Instagram  "><ion-icon class="ion" name="logo-instagram"></ion-icon></a>    
+                        <a href="/https://www.linkedin.com/in/digital-x-sarl-678703240"><ion-icon class="ion" name="logo-linkedin"></ion-icon></a>   
+                        <a href="/(607) digitalxsarl - YouTube"><ion-icon class="ion" name="logo-youtube"></ion-icon></a>   
+                    </div>
+            </div>
+            <div class="footer__big_1 col3">
+                <h4>NOS SERVICES</h4>
+                <div class="footer__desc">
+                    <a href="/serv marketing/marketing.html">Marketing</a>   
+                    <a href="/serv audio/audio.html">Audiovisuel</a> 
+                    <a href="/serv graphisme/graphisme.html">Design graphique</a>    
+                    <a href="/serv developpement/dev.html">Développement</a>   
+                </div>
+            </div>
+            <div class="footer__big_1 col1">
+                <h4>Où NOUS TROUVER</h4>
+                <p>Kotto, rue des châteaux</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer__bloc_3">
+        <div class="contain">
+            <div class="copy"> &#169; 2022 Digital X SARL</div>
+        </div>
+    </div>
+</footer>
+
+<script src="../menu/menu.js"></script>
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+<script src="../script.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>

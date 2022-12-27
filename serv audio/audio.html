@@ -1,0 +1,435 @@
+
+
+<link rel="stylesheet" href="../footer/footer.css">
+<link rel="stylesheet" href="./audio.css">
+<link rel="stylesheet" href="../style.css">
+<link rel="stylesheet" href="../menu/menu.css">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+
+<header class="header">
+    <img src="../images/img_menu/logo.png" alt="logo de DIGITAL X" class="header__logo"/>
+    <div class="header__overlay"></div>
+    <nav class="header__navigation">
+        <div class="header__menuhead">
+            <div class="header__retourarriere">
+                <ion-icon name="chevron-back-outline"></ion-icon>
+            </div>
+            <div class="header__currentmenu"></div>
+            <div class="header__close">&times;</div>
+        </div>
+        <ul class="header__list">
+            <li>
+                <a href="../index.html" class="header__link">Home </a>
+            </li>
+            <li class="header__dropdown header__items">
+                <a href="#" class="header__link">
+                    <span class="link__title"> Services</span>
+                    <ion-icon name="chevron-down-outline" class="header__icon"></ion-icon>
+                </a>
+                <div class="header__megamenu submenu">
+                    <div class="megamenu__firstelt" id="megamenu__first"></div>
+                    <div class="megamenu__container">
+                        <div class="megamenu__content megamenu__secondelt" onmouseover="changeimg('url(../images/img_menu/marketing.png)')" onmouseout="closeimg() ">
+                            <h1>Marketing</h1>
+                            <ul class="header__megamenulist">
+                                <li>
+                                    <a href="../serv marketing/marketing.html">
+                                        <ion-icon name="chevron-forward-outline" class="sublist__icon"></ion-icon>Marketing de contenu
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../serv marketing/marketing.html"><ion-icon name="chevron-forward-outline" class="sublist__icon"></ion-icon
+                                        >Marketing de réseaux sociaux
+                                        (CM)</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        href="../serv marketing/marketing.html"
+                                        ><ion-icon
+                                            name="chevron-forward-outline"
+                                            class="sublist__icon"
+                                        ></ion-icon
+                                        >Marketing d'email</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        href="../serv marketing/marketing.html"
+                                        ><ion-icon
+                                            name="chevron-forward-outline"
+                                            class="sublist__icon"
+                                        ></ion-icon
+                                        >Marketing audiovisuel</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        href="../serv marketing/marketing.html"
+                                        ><ion-icon
+                                            name="chevron-forward-outline"
+                                            class="sublist__icon"
+                                        ></ion-icon
+                                        >Marketing d'influence</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        href="../serv marketing/marketing.html"
+                                        ><ion-icon
+                                            name="chevron-forward-outline"
+                                            class="sublist__icon"
+                                        ></ion-icon
+                                        >Marketing d'affiliation</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        href="../serv marketing/marketing.html"
+                                        ><ion-icon
+                                            name="chevron-forward-outline"
+                                            class="sublist__icon"
+                                        ></ion-icon
+                                        >Référencement</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                        <div
+                            class="megamenu__content"
+                            onmouseover="changeimg('url(../images/img_menu/audiovisuel.png)')"
+                            onmouseout="closeimg() ">
+                            <h1>Audiovisuel</h1>
+                            <ul class="header__megamenulist">
+                                <li>
+                                    <a href="#Photographie">
+                                        <ion-icon
+                                            name="chevron-forward-outline"
+                                            class="sublist__icon"
+                                        ></ion-icon
+                                        >Photographie
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#Couverture médiatique"
+                                        ><ion-icon
+                                            name="chevron-forward-outline"
+                                            class="sublist__icon"
+                                        ></ion-icon
+                                        >Couverture médiatique</a
+                                    >
+                                </li>
+                                <li>
+                                    <a href="#Shooting"
+                                        ><ion-icon
+                                            name="chevron-forward-outline"
+                                            class="sublist__icon"
+                                        ></ion-icon
+                                        >Shooting</a
+                                    >
+                                </li>
+                                <li>
+                                    <a href="#Production audiovisuelle"
+                                        ><ion-icon
+                                            name="chevron-forward-outline"
+                                            class="sublist__icon"
+                                        ></ion-icon
+                                        >Production audiovisuelle</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                        <div
+                            class="megamenu__content megamenu__fourthelt"
+                            onmouseover="changeimg('url(../images/img_menu/dev.png)')"
+                            onmouseout="closeimg() "
+                        >
+                            <h1>Développement</h1>
+                            <ul class="header__megamenulist">
+                                <li>
+                                    <a
+                                        href="../serv developpement/dev.html"
+                                    >
+                                        <ion-icon
+                                            name="chevron-forward-outline"
+                                            class="sublist__icon"
+                                        ></ion-icon
+                                        >Développement web
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="../serv developpement/dev.html"
+                                        ><ion-icon
+                                            name="chevron-forward-outline"
+                                            class="sublist__icon"
+                                        ></ion-icon
+                                        >Développement mobile</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                        <div
+                            class="megamenu__content megamenu__fifthelt"
+                            onmouseover="changeimg('url(../images/img_menu/design.png)')"
+                            onmouseout="closeimg() "
+                        >
+                            <h1>Design Graphique</h1>
+                            <ul class="header__megamenulist">
+                                <li>
+                                    <a
+                                        href="../serv graphisme/graphisme.html"
+                                    >
+                                        <ion-icon
+                                            name="chevron-forward-outline"
+                                            class="sublist__icon"
+                                        ></ion-icon
+                                        >UI et UX Design
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="../serv graphisme/graphisme.html"
+                                        ><ion-icon
+                                            name="chevron-forward-outline"
+                                            class="sublist__icon"
+                                        ></ion-icon
+                                        >Web design</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="header__dropdown header__items">
+                <a href="../portfolio/portfolio.html" class="header__link">
+                    <span class="link__title"> Portfolio</span>
+                    <ion-icon
+                        name="chevron-down-outline"
+                        class="header__icon"
+                    ></ion-icon
+                ></a>
+
+                <ul class="header__droplist submenu">
+                    <li>
+                        <a href="../portfolio/portfolio.html">
+                            <ion-icon
+                                name="chevron-forward-outline"
+                                class="sublist__icon"
+                            ></ion-icon>
+                            Réalisations</a
+                        >
+                    </li>
+                    <li>
+                        <a href="../portfolio/portfolio.html"
+                            ><ion-icon
+                                name="chevron-forward-outline"
+                                class="sublist__icon"
+                            ></ion-icon
+                            >Template</a
+                        >
+                    </li>
+                    <li>
+                        <a href="../portfolio/portfolio.html"
+                            ><ion-icon
+                                name="chevron-forward-outline"
+                                class="sublist__icon"
+                            ></ion-icon
+                            >Evènements</a
+                        >
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#" class="header__link">Blog</a>
+            </li>
+            <li class="header__dropdown header__items">
+                <a href="#" class="header__link">
+                    <span class="link__title">Carrière</span>
+                    <ion-icon
+                        name="chevron-down-outline"
+                        class="header__icon"
+                    ></ion-icon>
+                </a>
+                <ul class="submenu header__droplist">
+                    <li>
+                        <a href="#">
+                            <ion-icon
+                                name="chevron-forward-outline"
+                                class="sublist__icon"
+                            ></ion-icon
+                            >Offres d'emplois</a
+                        >
+                    </li>
+                    <li>
+                        <a href="#"
+                            ><ion-icon
+                                name="chevron-forward-outline"
+                                class="sublist__icon"
+                            ></ion-icon
+                            >Candidature spontanée</a
+                        >
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#" class="header__link">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="header__menutrigger">
+        <span
+            ><ion-icon
+                name="menu-outline"
+                class="burger__icon"
+            ></ion-icon
+        ></span>
+    </div>
+</header>
+
+
+<section class="section__audio" id="Photographie">
+   
+    <div class="audio__header">
+        <h4>Donnez vie à votre image.</h4>
+        <h2>Spécialistes en Photographie</h2>
+        <span>Faites le bon choix pour vos photos.</span>
+    </div>
+
+    <div class="audio__bloc_1">
+        <img class="audio__img_1" src="../images/img_audio/Mask_Group_40_l@2x.png" alt="Mask_Group_40_l">
+        <img class="audio__img_2" src="../images/img_audio/Mask_Group_42.png" alt="Mask_Group_42">
+    </div>
+
+    <div class="audio__bloc_2">
+        <div class="audio__bloc_title">
+            <span>L'œil de l’auteur</span>
+            <h2>Au service de votre entreprise</h2>
+        </div>
+        <div class="audio__bloc_desc">
+            <div class="audio__desc">
+                <p><strong>la photographie est en permanente évolution</strong>, c’est tout un art de savoir capturer le monde qui nous entoure en respectant les techniques propres à la photographie. En gros mélanger la technique plus la beauté. <br> <strong>Surtout, une photo doit raconter une histoire</strong>, car chaque photo a la sienne. La photographie professionnelle doit en effet transmettre des messages à vos clients, du coup, rassurez-vous de faire le bon choix pour chacune de vos photos.</p>
+                <p>Nous mettons à votre disposition nos meilleurs photographes professionnels, dynamiques et passionnés qui ne cessent de se former pour vous garantir une photographie selon vos attentes. Nous vous invitons ainsi à voir notre porfolio.</p>
+            </div>
+            <div class="audio__desc">
+                <p><strong>La bonne photographie nécessite un matériel moderne de qualité</strong> avec l’aide d’un professionnel pour obtenir un visuel satisfaisant. Peu importe les dimensions, la grandeur, la hauteur ou même la vitesse, nous avons les moyens de réaliser votre photographie. Vous souhaitez faire des photographies de vos produits, votre entreprise ou alors votre personnelle, nous sommes là</p>
+                <p><strong>Nos services de Photographie d’entreprise sont essentiellement pour tous les professionnels</strong> : Les artisans, Immobilier, grandes entreprises, PME ou alors des professionnels indépendants, des associations et même des collectivités territoriales.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="audio__desc_1" id="Couverture médiatique">
+            <div>
+                <img class="audio__img_3" src="../images/img_audio/couverture mediatique.png" alt="couverture mediatique">
+            </div>
+            <div class="audio__content_desc">
+                <h4>Couverture Médiatique</h4>
+            <p>Vous, entreprises ou particuliers désirant atteindre vos objectifs en marketing évènementiel et transformer votre marque en une entreprise fiable, il vous faut obtenir une couverture médiatique. Cela ne signifie pas automatiquement que vous allez gagner un fort taux de présence mais en utilisant les bonnes techniques, vous pouvez tirer profit des actualités et ramener les faits autour de vous. Ingénieux pas vrai ?  Prenez donc le temps d’élaborer des buzz marketing médiatiques ou campagnes.</p>
+            <div class="bouton">
+            <a href="#" class="btn">Réalisation</a>
+            </div>
+            </div>
+    </div>
+
+    <div class="audio__img_4" id="Shooting">
+            <a href="#"><img src="../images/img_audio/n_333.png" alt="Marketing-de-contenu"></a>
+            <div class="audio__text_center">
+                <h4>Réalisez vos</h4>
+                <h2>SHOOTING</h2>
+                <span>In-Door</span>
+                <div class="bouton">
+                    <a href="#" class="btn">Réalisation</a>
+                </div>
+            </div>
+    </div>
+
+    <div class="audio__bloc_3" id="Production audiovisuelle">
+        <div class="audio__bloc_img">
+            <img class="audio__img_5" src="../images/img_audio/Mask_Group_44.png" alt="Mask_Group_44">
+        </div>
+        <div class="audio__bloc_text">
+            <h2>PRODUCTION</h2>
+            <h4>AUDIO VISUEL</h4>
+            <p>L'être humain est plus attiré par ce qu’il voit et ce qu’il entend, ces éléments lui permettent de vivre l’instant que vous lui transmettez de façon à le marquer. Alors profitez-en au maximum pour atteindre votre objectif.</p>
+            <div class="bouton">
+            <a href="#" class="btn">Réalisation</a>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<footer>
+    <div class="footer__bloc_1">
+        <div class="contain">
+        <div class="footer__bloc border">
+                <div class="footer__block">
+                    <img class="Phone" src="../images/img_footer/Phone.png" alt="Phone"><span>APPELEZ-NOUS</span>
+                </div>
+            <p>Tél:+237 699 999 999</p>
+        </div>
+        <div class="footer__bloc border">
+                <div class="footer__block">
+                    <img class="mail" src="../images/img_footer/mail_la.png" alt="mail_la"><span>E-MAIL</span>
+                </div>
+            <p><a href="mailto:info@digital-x-sarl.com">info@digital-x-sarl.com</a>
+            </p>
+        </div>
+        <div class="footer__bloc">
+                <div class="footer__block">
+                    <img class="heure" src="../images/img_footer/Heure.png" alt="Heure"><span>HORAIRES D'OUVERTURE</span>
+                </div>
+            <p>Lun - Ven (8 h - 17 h)</p>
+        </div>
+        </div>
+    </div>
+    
+    <div class="footer__bloc_2 ">
+        <div class="footer__grid_3 contain">
+            <div class="footer__big_1 col2">
+                <h4>NOUS SUIVRE</h4>
+                    <div class="footer__icon">
+                        <a href="/https://www.facebook.com/digitalxsarl"><ion-icon class="ion" name="logo-facebook"></ion-icon></a>   
+                        <a href="/Digital X SARL (@digitalxsarl) / Twitter"><ion-icon class="ion" name="logo-twitter"></ion-icon></a> 
+                        <a href="/Digital X SARL (@digitalxsarl) • Photos et vidéos Instagram  "><ion-icon class="ion" name="logo-instagram"></ion-icon></a>    
+                        <a href="/https://www.linkedin.com/in/digital-x-sarl-678703240"><ion-icon class="ion" name="logo-linkedin"></ion-icon></a>   
+                        <a href="/(607) digitalxsarl - YouTube"><ion-icon class="ion" name="logo-youtube"></ion-icon></a>   
+                    </div>
+            </div>
+            <div class="footer__big_1 col3">
+                <h4>NOS SERVICES</h4>
+                <div class="footer__desc">
+                    <a href="../serv marketing/marketing.html">Marketing</a>   
+                    <a href="../serv audio/audio.html">Audiovisuel</a> 
+                    <a href="/serv graphisme/graphisme.html">Design graphique</a>    
+                    <a href="/serv developpement/dev.html">Développement</a>   
+                </div>
+            </div>
+            <div class="footer__big_1 col1">
+                <h4>Où NOUS TROUVER</h4>
+                <p>Kotto, rue des châteaux</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer__bloc_3">
+        <div class="contain">
+            <div class="copy"> &#169; 2022 Digital X SARL</div>
+        </div>
+    </div>
+</footer>
+<script src="../menu/menu.js"></script>
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js">
+</script><script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+<script src="../script.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>

@@ -1,0 +1,173 @@
+
+/******************** GENERALITE  *********************/
+
+.section__marketing{
+    padding-bottom: 4rem;
+    padding-top: 2rem;
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.marketing__header, .marketing__content{
+    position: relative;
+    text-align: center;
+    color: var(--colorWhite);
+}
+.marketing__text_center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.75rem;
+}
+.marketing__content{
+    padding: 2.875rem 0 0 0;
+}
+.marketing__header > a > .market__header{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.486), rgba(0, 0, 0, 0.486)), url(../images/img_marketing/Marketing-de-contenu.jpg);
+    width: 100%; height: 68.54167vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.marketing__content > a > .market{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.486), rgba(0, 0, 0, 0.486)), url(../images/img_marketing/Marketing.png);
+    width: 100%; height: 68.54167vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.marketing__content > a > .market__affiliation{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.486), rgba(0, 0, 0, 0.486)), url(../images/img_marketing/Marketing-dafiliation.jpg);
+    width: 100%; height: 68.54167vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.marketing__content > a > .market__influence{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.486), rgba(0, 0, 0, 0.486)), url(../images/img_marketing/Marketing-dinfluence.jpg);
+    width: 100%; height: 68.54167vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.marketing__content > a > .market__visuel{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.486), rgba(0, 0, 0, 0.486)), url(../images/img_marketing/Marketing-audio.jpg);
+    width: 100%; height: 68.54167vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.marketing__content > a > .market__email{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.486), rgba(0, 0, 0, 0.486)), url(../images/img_marketing/Marketing-demail.jpg);
+    width: 100%; height: 68.54167vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.marketing__content > a > .market__sem{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.486), rgba(0, 0, 0, 0.486)), url(../images/img_marketing/referencement.png);
+    width: 100%; height: 68.54167vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.marketing__desc{
+    color: var(--colorBlack);
+    padding-bottom: 1.375rem;
+    font-size: 1.2rem;
+}
+.marketing__bloc{
+    margin: 0 8.75rem;
+    text-align: center;
+}
+.marketing__bloc > .btn{
+    font-size: 1.2rem;
+    color: var(--colorBlack);
+}
+/******************** MEDIA  *********************/
+
+/******************** 820PX  *********************/
+@media (max-width: 51.25em) {
+    .marketing__text_center{
+        font-size: 1.5rem;
+    }
+    .marketing__bloc{
+        margin: 0 0.3125rem 0 0.3125rem;
+    }
+    .marketing__desc > p{
+        font-size: 1rem;
+    }
+}
+/******************** 912PX  *********************/
+@media (max-width: 57em) {
+    .marketing__text_center{
+        font-size: 3rem;
+    }
+    .marketing__bloc{
+        margin: 0 0.3125rem 0 0.3125rem;
+    }
+    .marketing__desc > p{
+        font-size: 1.5rem;
+    }
+}
+/******************** 600PX  *********************/
+@media (max-width: 37.5em) {
+    .marketing__text_center{
+        font-size: 1.3rem;
+    }
+    .marketing__bloc{
+        margin: 0 0.3125rem 0 0.3125rem;
+    }
+    .marketing__desc > p{
+        font-size: 0.85rem
+    }
+}
+/******************** 540PX  *********************/
+@media (width: 33.75em) {
+    .marketing__text_center{
+        font-size: 1.05rem;
+    }
+    .marketing__bloc{
+        margin: 0 0.3125rem 0 0.3125rem;
+    }
+    .marketing__desc > p{
+        font-size: 0.78rem;
+    }
+}
+/******************** 360PX  *********************/
+@media (max-width: 22.5em) {
+    .marketing__text_center{
+        font-size: 1.35rem;
+    }
+    .marketing__bloc{
+        margin: 0 0.3125rem 0 0.3125rem;
+    }
+}
+/******************** 712PX  *********************/
+@media (max-width: 44.5em) {
+    .marketing__text_center{
+        font-size: 1.3rem;
+    }
+    .marketing__bloc{
+        margin: 0 0.3125rem 0 0.3125rem;
+    }
+    .marketing__desc > p{
+        font-size: 1rem;
+    }
+}
+/******************** 800PX  *********************/
+@media (max-width: 50em) {
+    .marketing__text_center{
+        font-size: 1.3rem;
+    }
+    .marketing__bloc{
+        margin: 0 0.3125rem 0 0.3125rem;
+    }
+    .marketing__desc > p{
+        font-size: 1rem;
+    }
+}
+
